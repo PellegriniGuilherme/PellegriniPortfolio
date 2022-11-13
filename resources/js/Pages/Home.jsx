@@ -11,7 +11,7 @@ function Home() {
 
 
     return (
-        <div className="bg-cinza-400 w-screen h-screen flex flex-col gap-y-10 justify-center items-center p-16">
+        <div className="bg-cinza-400 w-screen h-screen flex flex-col gap-y-10 justify-center items-center p-16 bgWeb">
             <Logo/>
             <p className="uppercase text-cinza-100 text-xl text-center">
                 Working in progress
