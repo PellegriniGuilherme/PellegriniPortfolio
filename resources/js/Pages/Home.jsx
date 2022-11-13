@@ -14,7 +14,7 @@ function Home() {
         <div className="bg-cinza-400 w-screen h-screen flex flex-col gap-y-10 justify-center items-center p-16 bgWeb">
             <Logo/>
             <p className="uppercase text-cinza-100 text-xl text-center">
-                Working in progress
+                Work in progress
             </p>
             <div className="flex flex-row gap-x-5 justify-center items-center">
                 <a href="https://www.linkedin.com/in/pellegrini-coelho/" target="_blank">
