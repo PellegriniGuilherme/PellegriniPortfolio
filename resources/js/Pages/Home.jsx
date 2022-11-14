@@ -39,7 +39,7 @@ function Home() {
             <p className="uppercase text-cinza-100 text-lg font-bold">
                 Stacks
             </p>
-            <div className="flex flex-row gap-x-6 md:gap-x-16 justify-center items-center">
+            <div className="flex flex-row flex-wrap gap-x-6 gap-y-3 md:gap-y-6 md:gap-x-16 justify-center items-center">
                 <Popper text="HTML5">
                     <SiHtml5 className="text-[#DD4B25]" size={26}/>
                 </Popper>
