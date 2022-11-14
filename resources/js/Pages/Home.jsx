@@ -41,10 +41,10 @@ function Home() {
             </p>
             <div className="flex flex-row gap-x-6 md:gap-x-16 justify-center items-center">
                 <Popper text="HTML 5">
-                    <SiHtml5 className="text-[#DD4B25]" size={32}/>
+                    <SiHtml5 className="text-[#DD4B25]" size={26}/>
                 </Popper>
                 <Popper text="CSS 3">
-                    <SiCss3 className="text-[#016AB1]" size={32}/>
+                    <SiCss3 className="text-[#016AB1]" size={26}/>
                 </Popper>
                 <Popper text="PHP">
                     <FaPhp className="text-[#7A86B8]" size={32}/>
