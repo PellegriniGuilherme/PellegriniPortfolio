@@ -11,12 +11,12 @@ function Home() {
 
 
     return (
-        <div className="bg-cinza-400 w-screen h-screen flex flex-col gap-y-10 justify-center items-center p-16 bgWeb">
+        <div className="bg-cinza-400 w-screen h-screen flex flex-col gap-y-14 justify-center items-center p-16 bgWeb">
             <Logo/>
-            <p className="uppercase text-cinza-100 text-xl text-center">
+            <p className="uppercase text-cinza-100 text-xl text-center ">
                 Work in progress
             </p>
-            <div className="flex flex-row gap-x-5 justify-center items-center">
+            <div className="flex flex-row gap-x-5 justify-center items-center -mt-10">
                 <a href="https://www.linkedin.com/in/pellegrini-coelho/" target="_blank">
                     <AiFillLinkedin
                         className="text-cinza-200 cursor-pointer hover:text-cinza-100 transition-all"
@@ -39,7 +39,7 @@ function Home() {
             <p className="uppercase text-cinza-100 text-lg font-bold">
                 Stacks
             </p>
-            <div className="flex flex-row flex-wrap gap-x-6 gap-y-3 md:gap-y-6 md:gap-x-16 justify-center items-center">
+            <div className="flex flex-row flex-wrap gap-x-6 gap-y-3 md:gap-y-6 md:gap-x-16 justify-center items-center -mt-10">
                 <Popper text="HTML5">
                     <SiHtml5 className="text-[#DD4B25]" size={26}/>
                 </Popper>
