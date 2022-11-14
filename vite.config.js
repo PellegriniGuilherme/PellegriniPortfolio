@@ -14,6 +14,10 @@ export default defineConfig({
         react(),
     ],
     ssr: {
-        noExternal: ['@inertiajs/server'],
+        noExternal: [
+            'laravel-vite-plugin',
+            'react-icons',
+            '@inertiajs/server'
+        ]
     },
 });

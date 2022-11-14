@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
-import { createInertiaApp } from '@inertiajs/inertia-react';
 import createServer from '@inertiajs/server';
-import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 import route from '../../vendor/tightenco/ziggy/dist/index.m';
+import { createInertiaApp } from '@inertiajs/inertia-react';
+import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 
-const appName = window.document.getElementsByTagName('title')[0]?.innerText || 'Laravel';
+const appName = 'Laravel';
 
 createServer((page) =>
     createInertiaApp({
