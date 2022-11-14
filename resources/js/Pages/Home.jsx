@@ -40,10 +40,10 @@ function Home() {
                 Stacks
             </p>
             <div className="flex flex-row gap-x-6 md:gap-x-16 justify-center items-center">
-                <Popper text="HTML 5">
+                <Popper text="HTML5">
                     <SiHtml5 className="text-[#DD4B25]" size={26}/>
                 </Popper>
-                <Popper text="CSS 3">
+                <Popper text="CSS3">
                     <SiCss3 className="text-[#016AB1]" size={26}/>
                 </Popper>
                 <Popper text="PHP">
